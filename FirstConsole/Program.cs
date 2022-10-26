@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FirstConsole.Models;
+using System;
 
 namespace FirstConsole
 {
@@ -7,6 +8,10 @@ namespace FirstConsole
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Person p = new Person();
+            p.SetFields(1, "Ravi Krishna", "Chennai");
+            p.Show();
+          //  p.sno = 12; //error
         }
     }
 }
