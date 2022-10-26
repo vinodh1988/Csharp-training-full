@@ -10,6 +10,14 @@ namespace FirstConsole.Models
         private string name;
         private string city;
 
+        public int Sno { get { return sno; } set { this.sno = value; } }
+        public string Name {
+            get { return name; }
+            set { name = "Hey!!! " + value; }
+        }
+        public string City { get { return city; } set {
+                 city = value;
+            } }
         internal void SetFields(int sno, String name, String city) {
             this.sno = sno;
             this.name = name;

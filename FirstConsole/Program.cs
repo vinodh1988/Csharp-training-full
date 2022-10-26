@@ -11,6 +11,13 @@ namespace FirstConsole
             Person p = new Person();
             p.SetFields(1, "Ravi Krishna", "Chennai");
             p.Show();
+            p.Sno = 2;
+            p.Name = "Ravi Kumar";
+
+            p.Show();
+
+            Emp e = new Emp();
+            e.Show();
           //  p.sno = 12; //error
         }
     }
