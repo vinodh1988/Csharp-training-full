@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <StartupObject>FirstConsole.UserInput</StartupObject>
+    <StartupObject>FirstConsole.Literals</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
