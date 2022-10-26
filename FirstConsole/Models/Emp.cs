@@ -6,7 +6,7 @@ namespace FirstConsole.Models
 {
     internal class Emp
     {
-        public int Eno { get; set; }
+        public int Eno { get ; set; }
         public string Name { get; set; }
         public string City { get; set; }
 
