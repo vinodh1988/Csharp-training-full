@@ -15,9 +15,16 @@ namespace FirstConsole
             string name=Console.ReadLine();
             Console.WriteLine("Sno : "+sno+" Name: "+name);
 
+           
             Int32 x = sno;//Autoboxing
             int y = x;//unboxing
-           
+
+            int? z = null;
+            Int32? k = null; //Nullable -> Nullable<Int32> k=null;
+            Nullable<Int32> data = null;
+
+            float? m = 30.34f;
+            Single? sample = m;//represents Float
         }
     }
 }
