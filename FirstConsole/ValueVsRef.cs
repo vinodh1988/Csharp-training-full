@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FirstConsole.Models;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -17,7 +18,7 @@ namespace FirstConsole
         }
         // x and array are pointing same address - pass by reference
         static void AssignMe(int[] x) {
-            for (int i = 0; i < x.Length; i++)
+            for (int i = 0; i < x.Length; i+=2)
             {
                 x[i] = 90;
             }
@@ -30,12 +31,17 @@ namespace FirstConsole
         static void AssignMe(String x) {
             x = "Joseph";
         }
+        //Pass by Value
+        static void AssignMe(Person p) {
+            p.Name = "Joseph";
+        }
             
         static void Main(String[] n) {
             int[] array = { 34, 34, 53, 5, 34, 35, 590 };
             int y = 349;
             Single z = 9034.4f;
             String t = "Roger";
+            Person p = new Person() { Sno=1, Name ="Kiran",City="Chennai"};
 
             Console.WriteLine("Before Calling");
             Console.WriteLine("array is ->");
@@ -44,10 +50,12 @@ namespace FirstConsole
             Console.WriteLine("y is {0} ", y);
             Console.WriteLine("z is {0}", z);
             Console.WriteLine("t is {0}", t);
+            p.Show();
             AssignMe(array);
             AssignMe(y);
             AssignMe(z);
             AssignMe(t);
+            AssignMe(p);
             Console.WriteLine("After Calling");
             Console.WriteLine("array is ->");
             Console.WriteLine("z is {0}", z);
@@ -55,6 +63,7 @@ namespace FirstConsole
                 Console.WriteLine(x);
             Console.WriteLine("y is {0} ", y);
             Console.WriteLine("t is {0}", t);
+            p.Show();
 
 
         }
