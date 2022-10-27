@@ -26,6 +26,9 @@ namespace FirstConsole
             Console.WriteLine(c);
             Console.WriteLine(z);
 
+            for(int i = 65; i <= 90; i++)
+                Console.Write((char)i+" ");
+
         }
     }
 }
