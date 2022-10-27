@@ -10,7 +10,7 @@ namespace FirstConsole
             int a = 30;
             Console.WriteLine(a+" is the value and its type is " + a.GetType());
 
-            //var x; //error
+            //var x; //error //introduced in c# 3.0
             var p = 349; //implicitly typed variable
             Console.WriteLine(p + " is the value and its type is " + p.GetType());
 
