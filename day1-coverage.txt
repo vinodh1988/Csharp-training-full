@@ -1,0 +1,63 @@
+
+
+Net vs Net Core
+Setup Vstudio
+
+Console application
+
+Conventions
+                  Class and Methods
+				  Variables - same but we tend to start variables with lower case
+				             unless it is a class property
+Class -> instance members
+         
+		 properties
+		 
+Class - Main
+
+Datatypes:
+       primitive
+	   int
+	   float
+	   double
+	   short
+	   byte 
+	   long
+	   string
+	   
+	 Int32
+	 Int64
+	 Single
+	 Double
+	 
+Namespace
+
+Access specifiers
+
+internal
+public 
+private 
+protected
+
+Reading Data from user
+
+Conversions
+
+  Implicit conversion  
+               Types are similar(concept associated with class type and primitive type)
+                autoboxing
+				unboxing
+
+               Typecasting?
+			   
+			   long>int>short> byte
+			   
+			   double>long>int>float
+  Literals
+  
+        float - f suffix
+		hexa decimal number
+		formated output using console.Writeline
+		to represent octal and binary
+		
+
