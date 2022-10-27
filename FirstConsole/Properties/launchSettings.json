@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "FirstConsole": {
+      "commandName": "Project",
+      "commandLineArgs": "India China Japan Korea SriLanka"
+    }
+  }
+}

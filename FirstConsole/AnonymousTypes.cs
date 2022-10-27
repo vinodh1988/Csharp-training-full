@@ -13,7 +13,13 @@ namespace FirstConsole
             Console.WriteLine(person.Name);
             Console.WriteLine("Type of Person is "+person.GetType());
 
+            Console.Write(person.Sno.ToString());
            // person.Name = "Rakesh";//readonly not assignable
         }
     }
 }
+
+/*
+ * 
+ * Status(501, new {message =" ID is already there"})
+*/
