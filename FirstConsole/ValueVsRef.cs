@@ -26,11 +26,16 @@ namespace FirstConsole
         static void AssignMe(Single x) {
             x = 90;
         }
+
+        static void AssignMe(String x) {
+            x = "Joseph";
+        }
             
         static void Main(String[] n) {
             int[] array = { 34, 34, 53, 5, 34, 35, 590 };
             int y = 349;
             Single z = 9034.4f;
+            String t = "Roger";
 
             Console.WriteLine("Before Calling");
             Console.WriteLine("array is ->");
@@ -38,17 +43,18 @@ namespace FirstConsole
                 Console.WriteLine(x);
             Console.WriteLine("y is {0} ", y);
             Console.WriteLine("z is {0}", z);
-
+            Console.WriteLine("t is {0}", t);
             AssignMe(array);
             AssignMe(y);
             AssignMe(z);
-
+            AssignMe(t);
             Console.WriteLine("After Calling");
             Console.WriteLine("array is ->");
+            Console.WriteLine("z is {0}", z);
             foreach (var x in array)
                 Console.WriteLine(x);
             Console.WriteLine("y is {0} ", y);
-            Console.WriteLine("z is {0}", z);
+            Console.WriteLine("t is {0}", t);
 
 
         }
