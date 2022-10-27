@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <StartupObject>FirstConsole.ArraysDemo</StartupObject>
+    <StartupObject>FirstConsole.ValueVsRef</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
