@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <StartupObject>FirstConsole.StructDemo</StartupObject>
+    <StartupObject>FirstConsole.EnumerationType</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
