@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <StartupObject>FirstConsole.JaggedArray</StartupObject>
+    <StartupObject>FirstConsole.StructDemo</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
