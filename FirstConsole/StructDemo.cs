@@ -35,7 +35,7 @@ namespace FirstConsole
             p1.Show();
            // PersonClass x;
            // x.sno = 20; //error - a class reference variable should be assigned to an object
-            
+         //you can x if and only if it holds an object otherwise its null     
         }
     }
 }
